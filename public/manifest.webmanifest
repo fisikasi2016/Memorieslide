@@ -1,0 +1,9 @@
+{
+  "name": "MemorySlide",
+  "short_name": "MemorySlide",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#111827",
+  "icons": [{ "src": "/icon.svg", "sizes": "128x128", "type": "image/svg+xml" }]
+}

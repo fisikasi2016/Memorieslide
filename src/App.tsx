@@ -193,10 +193,26 @@ export default function App() {
     <main className="app-shell">
       <section className="hero-panel">
         <div>
-          <p className="eyebrow">PWA local · swipe friendly</p>
-          <h1>MemorySlide</h1>
+          <p className="eyebrow">Organzia tus carpetas de archivos</p>
+          <h1>Cajón De(-)sastre</h1>
           <p className="subtitle">
-            Revisa imágenes, vídeos y documentos con una interfaz suave tipo dashboard. En ordenador usa flechas; en móvil desliza: derecha guarda, izquierda borra, arriba y abajo navegan.
+            <strong><em>Cajón de(-)sastre</em></strong> es una aplicación web diseñada
+            para revisar y clasificar grandes colecciones de recuerdos digitales
+            (fotografías, vídeos y documentos) almacenados en carpetas locales.
+
+
+            <br />
+
+            La aplicación permite navegar rápidamente entre archivos mediante teclado o
+            ratón y clasificarlos en las carpetas "Guardar" o "Borrar" con un solo gesto.
+
+
+            <br />
+
+            <strong>
+              Aplicación optimizada para ordenador. No compatible con selección de
+              carpetas locales en móviles.
+            </strong>
           </p>
         </div>
 
@@ -233,8 +249,8 @@ export default function App() {
             <span>↓</span><p>Siguiente elemento</p>
             <span>←</span><p>Mandar a borrar</p>
             <span>→</span><p>Guardar</p>
-            <span>Ctrl Z</span><p>Deshacer último</p>
-            <span>Espacio</span><p>Abrir PDF/documento</p>
+            <span>Ctrl Z</span><p>Deshacer</p>
+            <span>ESP</span><p>Abrir PDF</p>
           </div>
 
           <div className="stats-card">
